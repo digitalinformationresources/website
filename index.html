@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Business Website">
+    <title>Your Business Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            float: left;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .services-list {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service-item {
+            background-color: #e2e2e2;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            width: 30%;
+        }
+        .service-item h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Your Business Name</h1>
+        <p>Your tagline or description goes here.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Our Business</h2>
+        <p>We are a company dedicated to providing exceptional services to our clients. Discover what we offer and how we can assist you in your needs.</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our company has been in business for over X years, specializing in high-quality products and services that meet the needs of our customers.</p>
+        <p>We aim to bring innovative solutions and make a positive impact in the industry.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Service 1</h3>
+                <p>Description of the first service you offer. Include key features or benefits.</p>
+            </div>
+            <div class="service-item">
+                <h3>Service 2</h3>
+                <p>Description of the second service you offer. Include key features or benefits.</p>
+            </div>
+            <div class="service-item">
+                <h3>Service 3</h3>
+                <p>Description of the third service you offer. Include key features or benefits.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for inquiries, quotes, or more information:</p>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Your Business Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
